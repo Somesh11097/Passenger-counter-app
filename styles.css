@@ -33,3 +33,7 @@ button{
 #save-btn{
     background: darkgreen;
 }
+
+#save-el{
+    font-weight: bold;
+}
