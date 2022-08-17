@@ -1,22 +1,52 @@
-//document.getElementById("count-el").innerText=5;
+// document.getElementById("count-el").innerText=5;
 
 
-// let count = 0;
-// count = count + 1;
-// console.log(count);
 
 
-function increment () {
-    console.log("clicked");
+let countEl = document.getElementById("count-el")
+let saveEl = document.getElementById("save-el")
+let count = 0
+
+
+function increment(){
+
+   count +=1;
+   countEl.innerText = count
 
 }
 
-let lap1 = 34;
-let lap2 = 33;
-let lap3 = 36;
-
-function lapTime() {
-    console.log(lap1 + lap2 + lap3);
+function save(){
+    let countStr = count + " - "
+    saveEl.innerText += countStr
+    
+    
 }
 
-lapTime()
+
+
+
+
+
+
+
+
+
+// let welcomeEl = document.getElementById("welcome-el")
+
+// let name = " Somesh Banerjee"
+// let greeting = "Welcome back!!!"
+
+// welcomeEl.innerText = greeting + name;
+
+
+
+
+
+
+
+
+
+
+
+
+
